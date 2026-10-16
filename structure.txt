@@ -1,0 +1,31 @@
+1. Features
+- Add, search, and view books
+- Register library members
+- Issue books to members
+- Track available book copies
+- Return issued books
+- Calculate overdue fines
+- Maintain borrowing history
+- Prevent issuing unavailable books
+- View active loans and overdue books
+- Generate library reports
+
+2. Project structure
+library_management/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── book_manager.py
+├── member_manager.py
+├── loan_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── books.json
+    ├── members.json
+    └── loans.json
